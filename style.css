@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#corpo{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: bisque;
+    text-align: center;
+}
+
+#divCentral{
+    box-shadow:30px gray ;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 40%;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-box-shadow: -8px 13px 52px 13px rgba(0,0,0,0.4);
+    -moz-box-shadow: -8px 13px 52px 13px rgba(0,0,0,0.4);
+    box-shadow: -8px 13px 52px 13px rgba(0,0,0,0.4);
+}
+
+.quadrado{
+    padding: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(238, 237, 237);
+}
+
+.quadrado *:hover{
+    -webkit-filter: brightness(90%);
+}
+
+p{
+    padding-top: 1vh;
+    position: absolute
+}
+
+.jogo1{
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo2{
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo3{
+    border-left: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo4{
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo5{
+    border-top: 1px dotted black;
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo6{
+    border-top: 1px dotted black;
+    border-left: 1px dotted black;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo7{
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo8{
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-left: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.jogo9{
+    border-top: 1px dotted black;
+    border-left: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(238, 237, 237);
+}
+
+#jogo00{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo10{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo20{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo01{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo11{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo21{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#jogo02{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#jogo12{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#jogo22{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
